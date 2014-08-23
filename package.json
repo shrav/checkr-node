@@ -1,0 +1,57 @@
+{
+  "name": "checkr-api",
+  "description": "Checkr Node.js Bindings",
+  "keywords": [
+    "checkr",
+    "checkr-node",
+    "rest",
+    "api",
+    "wrapper",
+    "checkr.io"
+  ],
+  "version": "1.0.1",
+  "homepage": "https://github.com/shrav/checkr-node",
+  "author": "Shrav Mehta <shravvmehtaa@gmail.com.com> (https://www.shravmehta.com/)",
+  "dependencies": {
+    "request": "^2.39.0",
+    "coveralls": "^2.11.1",
+    "mocha-lcov-reporter": "0.0.1",
+    "gulp": "^3.8.6",
+    "gulp-load-plugins": "^0.5.3",
+    "gulp-coveralls": "^0.1.2",
+    "gulp-mocha": "^0.5.2"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.6",
+    "gulp-jshint": "~1.8.2",
+    "chai": "^1.9.1",
+    "yargs": "^1.3.1",
+    "gulp-load-plugins": "^0.5.3",
+    "jshint-stylish": "~0.4.0",
+    "mocha": "~1.21.3",
+    "gulp-mocha": "~0.5.2",
+    "gulp-istanbul": "~0.2.1",
+    "istanbul": "^0.3.0",
+    "gulp-jscs": "^1.0.0",
+    "gulp-istanbul-enforcer": "^1.0.3",
+    "gulp-exit": "0.0.2",
+    "gulp-clean": "^0.3.1",
+    "gulp-util": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shrav/checkr-node"
+  },
+  "bugs:": "https://github.com/shrav/checkr-node/issues",
+  "main": "./lib/index",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "enforce": "gulp enforce",
+    "lint": "gulp lint",
+    "style": "gulp style",
+    "coveralls": "gulp coveralls"
+  }
+}
